@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+*.log
+
+organizer-scaffold.zip
+google-sites-redesign.md
+research-showcase-embed.html
+/tmp/
+/incoming-updates/
+/assets/figures/debt_innovation-figure.png
+/assets/figures/ge_test-figure.png
+*conflicted copy*
+/assets/figures/pih-plans-figure.png
+/assets/figures/pih-schedule-figure.png
+/assets/figures/pih-two-histories-figure.png
+/assets/figures/pih-two-histories-server-preview.png
