@@ -1,0 +1,241 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NCC 5060 Fall 2026//Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NCC 5060 Deadlines and Exams
+X-WR-TIMEZONE:America/New_York
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ncc5060-fall2026-makeup-case2@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261101T230000
+DTEND;TZID=America/New_York:20261101T235900
+SUMMARY:MAKEUP: Case 2 application due by 11:59 p.m.
+DESCRIPTION:Apply on the course website. Closes Sunday Nov 1 at 11:59:59 p
+ .m.\nCheck the course website for updates.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MAKEUP: Case 2 application due by 11:59 p.m.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ncc5060-fall2026-makeup-case1-reaction@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261101T230000
+DTEND;TZID=America/New_York:20261101T235900
+SUMMARY:MAKEUP: Case 1 reaction video due by 11:59 p.m.
+DESCRIPTION:Only for students approved for a Case 1 makeup. Submit on the 
+ course website.\nCheck the course website for updates.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MAKEUP: Case 1 reaction video due by 11:59 p.m.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ncc5060-fall2026-ps2@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261101T230000
+DTEND;TZID=America/New_York:20261101T235900
+SUMMARY:PS2 due by 11:59 p.m. (Capital Budgeting)
+DESCRIPTION:Submit on the course website.\nCheck the course website for up
+ dates.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PS2 due by 11:59 p.m. (Capital Budgeting)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ncc5060-fall2026-makeup-case2-discussion@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261105T070000
+DTEND;TZID=America/New_York:20261105T073000
+SUMMARY:MAKEUP: Case 2 discussion video due by 7:30 a.m.
+DESCRIPTION:Only for students approved for a Case 2 makeup. Submit on the 
+ course website.\nCheck the course website for updates.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MAKEUP: Case 2 discussion video due by 7:30 a.m.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ncc5060-fall2026-makeup-case2-reaction@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261108T230000
+DTEND;TZID=America/New_York:20261108T235900
+SUMMARY:MAKEUP: Case 2 reaction video due by 11:59 p.m.
+DESCRIPTION:Only for students approved for a Case 2 makeup. Submit on the 
+ course website.\nCheck the course website for updates.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MAKEUP: Case 2 reaction video due by 11:59 p.m.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ncc5060-fall2026-case2@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261105T070000
+DTEND;TZID=America/New_York:20261105T073000
+SUMMARY:Case 2 write-up and spreadsheet due by 7:30 a.m. (Oracle valuation
+ )
+DESCRIPTION:One group spreadsheet and each student's own write-up\; submit
+  on the course website.\nCheck the course website for updates.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Case 2 write-up and spreadsheet due by 7:30 a.m. (Oracle valua
+ tion)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ncc5060-fall2026-ta-review-mid@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:2
+DTSTART;TZID=America/New_York:20261104T190000
+DTEND;TZID=America/New_York:20261104T210000
+SUMMARY:TA review: Stock Valuation
+LOCATION:https://cornell.zoom.us/j/99941938299?pwd=SJ0igxzUmsf7vVQ2pd19KAj
+ zUbHexv.1
+DESCRIPTION:Optional TA review session (Zoom only).\nZoom: https://cornell
+ .zoom.us/j/99941938299?pwd=SJ0igxzUmsf7vVQ2pd19KAjzUbHexv.1\nMeeting ID: 
+ 999 4193 8299\, passcode: 006543\nCheck the course website for updates.
+END:VEVENT
+BEGIN:VEVENT
+UID:ncc5060-fall2026-prof-review-mid@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261106T100000
+DTEND;TZID=America/New_York:20261106T113000
+SUMMARY:Midterm Q&A review with Prof. Chau
+LOCATION:Sage Hall B09
+DESCRIPTION:Check the course website for updates.
+END:VEVENT
+BEGIN:VEVENT
+UID:ncc5060-fall2026-midterm@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261107T130000
+DTEND;TZID=America/New_York:20261107T160000
+SUMMARY:Midterm exam
+LOCATION:Room TBD (check course website)
+DESCRIPTION:In person. Bring your BAII+ calculator.\nCheck the course webs
+ ite for updates.
+END:VEVENT
+BEGIN:VEVENT
+UID:ncc5060-fall2026-ps3@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261115T230000
+DTEND;TZID=America/New_York:20261115T235900
+SUMMARY:PS3 due by 11:59 p.m. (Stock Valuation)
+DESCRIPTION:Submit on the course website.\nCheck the course website for up
+ dates.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PS3 due by 11:59 p.m. (Stock Valuation)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ncc5060-fall2026-ps4@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261122T230000
+DTEND;TZID=America/New_York:20261122T235900
+SUMMARY:PS4 due by 11:59 p.m. (Bond Valuation)
+DESCRIPTION:Submit on the course website.\nCheck the course website for up
+ dates.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PS4 due by 11:59 p.m. (Bond Valuation)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ncc5060-fall2026-ps5@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261130T230000
+DTEND;TZID=America/New_York:20261130T235900
+SUMMARY:PS5 due by 11:59 p.m. (Risk and Return)
+DESCRIPTION:Submit on the course website.\nCheck the course website for up
+ dates.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PS5 due by 11:59 p.m. (Risk and Return)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ncc5060-fall2026-case3@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261207T070000
+DTEND;TZID=America/New_York:20261207T073000
+SUMMARY:Case 3 write-up and spreadsheet due by 7:30 a.m. (Oracle cost of c
+ apital)
+DESCRIPTION:One group spreadsheet and each student's own write-up\; submit
+  on the course website.\nCheck the course website for updates.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Case 3 write-up and spreadsheet due by 7:30 a.m. (Oracle cost 
+ of capital)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ncc5060-fall2026-ps6@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261209T230000
+DTEND;TZID=America/New_York:20261209T235900
+SUMMARY:PS6 due by 11:59 p.m. (Cost of Capital)
+DESCRIPTION:Submit on the course website.\nCheck the course website for up
+ dates.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PS6 due by 11:59 p.m. (Cost of Capital)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ncc5060-fall2026-final@nverachau.com
+DTSTAMP:20261030T141328Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261211T090000
+DTEND;TZID=America/New_York:20261211T120000
+SUMMARY:Final exam
+LOCATION:Room TBD (check course website)
+DESCRIPTION:In person. Bring your BAII+ calculator.\nCheck the course webs
+ ite for updates.
+END:VEVENT
+END:VCALENDAR
